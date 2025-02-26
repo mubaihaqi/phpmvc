@@ -1,0 +1,6 @@
+2025/02/26-20:31:02.232 39ec Creating DB C:\laragon\www\phpmvc\~\fresh-vscode\WebStorage\2\IndexedDB\indexeddb.leveldb since it was missing.
+2025/02/26-20:31:02.292 39ec Reusing MANIFEST C:\laragon\www\phpmvc\~\fresh-vscode\WebStorage\2\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2025/02/26-20:31:02.378 222c Level-0 table #5: started
+2025/02/26-20:31:02.421 222c Level-0 table #5: 681 bytes OK
+2025/02/26-20:31:02.438 222c Delete type=0 #3
+2025/02/26-20:31:02.438 222c Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,10 @@
+2025-02-26 20:30:52.919 [info] Uninstalling extension from the profile: equinusocio.vsc-material-theme@34.7.9 vscode-userdata:/c%3A/Users/justn/.vscode/extensions/extensions.json
+2025-02-26 20:30:53.796 [info] Successfully uninstalled extension from the profile equinusocio.vsc-material-theme@34.7.9 vscode-userdata:/c%3A/Users/justn/.vscode/extensions/extensions.json
+2025-02-26 20:30:57.534 [info] Getting Manifest... blackboxapp.blackboxagent
+2025-02-26 20:30:58.045 [info] Installing extension: blackboxapp.blackboxagent {"context":{"extensionInstallSource":"command"},"isMachineScoped":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/c%3A/Users/justn/.vscode/extensions/extensions.json","path":"/c:/Users/justn/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"}}
+2025-02-26 20:31:06.901 [info] Extension signature verification result for blackboxapp.blackboxagent: Success. Executed: true. Duration: 1317ms.
+2025-02-26 20:31:12.349 [info] Extracted extension to file:///c%3A/Users/justn/.vscode/extensions/blackboxapp.blackboxagent-2.9.14: blackboxapp.blackboxagent
+2025-02-26 20:31:12.549 [info] Renamed to c:\Users\justn\.vscode\extensions\blackboxapp.blackboxagent-2.9.14
+2025-02-26 20:31:12.821 [info] Extension installed successfully: blackboxapp.blackboxagent vscode-userdata:/c%3A/Users/justn/.vscode/extensions/extensions.json
+2025-02-26 20:31:36.112 [info] Uninstalling extension from the profile: equinusocio.vsc-material-theme@34.7.9 vscode-userdata:/c%3A/Users/justn/.vscode/extensions/extensions.json
+2025-02-26 20:31:36.468 [info] Successfully uninstalled extension from the profile equinusocio.vsc-material-theme@34.7.9 vscode-userdata:/c%3A/Users/justn/.vscode/extensions/extensions.json

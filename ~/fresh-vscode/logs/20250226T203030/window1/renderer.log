@@ -1,0 +1,26 @@
+2025-02-26 20:30:33.143 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-26 20:30:33.167 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-26 20:30:33.167 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-26 20:30:33.168 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-26 20:30:33.353 [warning] Creation of workbench contribution 'workbench.chat.setup' took 22ms.
+2025-02-26 20:30:34.810 [info] Started local extension host with pid 8004.
+2025-02-26 20:30:39.785 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-02-26 20:30:39.830 [info] [perf] Render performance baseline is 235ms
+2025-02-26 20:30:49.244 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-26 20:30:49.245 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-26 20:30:49.245 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-26 20:30:49.246 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-26 20:30:49.896 [info] Started local extension host with pid 14812.
+2025-02-26 20:30:50.276 [info] [Blackboxapp.blackbox]: Command `extension.saveCodeToCloud` already registered by BLACKBOXAI #1 Coding Agent +10 Million Developers (Blackboxapp.blackbox)
+2025-02-26 20:30:51.645 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-02-26 20:30:52.394 [info] [perf] Render performance baseline is 116ms
+2025-02-26 20:31:04.783 [info] Extension host (LocalProcess pid: 14812) is unresponsive.
+2025-02-26 20:31:08.433 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-02-26 20:31:12.311 [info] Extension host (LocalProcess pid: 14812) is responsive.
+2025-02-26 20:31:12.311 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-02-26 20:31:12.753 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 39.57792431116135% of 1542.062ms, saved PROFILE here: 'file:///c%3A/Users/justn/AppData/Local/Temp/exthost-ea52e1.cpuprofile'
+2025-02-26 20:31:12.848 [info] [Blackboxapp.blackbox]: Command `extension.saveCodeToCloud` already registered by BLACKBOXAI #1 Coding Agent +10 Million Developers (Blackboxapp.blackbox)
+2025-02-26 20:31:37.952 [error] [Extension Host] [RevisionManager] Error reading tasks directory: Error: ENOENT: no such file or directory, scandir 'c:\laragon\www\phpmvc\~\fresh-vscode\User\globalStorage\blackboxapp.blackboxagent\tasks'
+    at readdir (node:internal/fs/promises:950:18)
+    at Function.getAllRevisions (c:\Users\justn\.vscode\extensions\blackboxapp.blackboxagent-2.9.14\dist\extension.js:775:432)
+    at Function.cleanupOldRevisions (c:\Users\justn\.vscode\extensions\blackboxapp.blackboxagent-2.9.14\dist\extension.js:773:8080)

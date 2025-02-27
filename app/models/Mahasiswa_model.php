@@ -42,8 +42,8 @@ class Mahasiswa_model extends Controller
 
     public function tambahDataMahasiswa($data)
     {
-        $query = "INSET INTO mahasiswa
-        VALUES('', :nim, :nama, :email, :jurusan)";
+        $query = "INSERT INTO mahasiswa
+        VALUES(0, :nim, :nama, :email, :jurusan)";
 
         $this->db->query($query);
         $this->db->bind('nama', $data['nama']);

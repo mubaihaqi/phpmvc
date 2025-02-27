@@ -19,6 +19,7 @@ class Mahasiswa extends Controller
         $this->view('mahasiswa/detail', $data);
         $this->view('template/footer');
     }
+
     public function tambah()
     {
         // var_dump($_POST);
@@ -28,6 +29,20 @@ class Mahasiswa extends Controller
             exit;
         } else {
             Flasher::setFLash('gagal', 'ditambahkan', 'danger');
+            header('Location:' . BASEURL . '/mahasiswa');
+            exit;
+        }
+    }
+
+    public function hapus($id)
+    {
+        // var_dump($_POST);
+        if ($this->model('Mahasiswa_model')->hapusDataMahasiswa($id) > 0) {
+            Flasher::setFLash('berhasil', 'dihapus', 'success');
+            header('Location:' . BASEURL . '/mahasiswa');
+            exit;
+        } else {
+            Flasher::setFLash('gagal', 'dihapus', 'danger');
             header('Location:' . BASEURL . '/mahasiswa');
             exit;
         }

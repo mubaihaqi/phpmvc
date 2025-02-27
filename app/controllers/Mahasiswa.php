@@ -23,6 +23,11 @@ class Mahasiswa extends Controller
     {
         // var_dump($_POST);
         if ($this->model('Mahasiswa_model')->tambahDataMahasiswa($_POST) > 0) {
+            Flasher::setFLash('berhasil', 'ditambahkan', 'success');
+            header('Location:' . BASEURL . '/mahasiswa');
+            exit;
+        } else {
+            Flasher::setFLash('gagal', 'ditambahkan', 'danger');
             header('Location:' . BASEURL . '/mahasiswa');
             exit;
         }
